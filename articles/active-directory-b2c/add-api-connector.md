@@ -160,7 +160,7 @@ Content-type: application/json
 }
 ```
 
-The exact claims sent to the API depend on the information is provided by the identity provider. 'email' is always sent.
+The exact claims sent to the API depend on the information provided by the identity provider. 'email' is always sent.
 
 ### Expected response types from the web API at this step
 
@@ -221,7 +221,7 @@ Content-type: application/json
 }
 ```
 
-The claims that are sent to the API depend on the information is collected from the user or is provided by the identity provider.
+The claims that are sent to the API depend on the information collected from the user or provided by the identity provider.
 
 ### Expected response types from the web API at this step
 
@@ -587,7 +587,7 @@ To return the promo code claim back to the relying party application, add an out
 1. Select **Identity Experience Framework**.
 1. Select **Upload Custom Policy**, and then upload the policy files that you changed: *TrustFrameworkExtensions.xml*, and *SignUpOrSignin.xml*. 
 1. Select the sign-up or sign-in policy that you uploaded, and click the **Run now** button.
-1. You should be able to sign up using an email address.
+1. You can now sign up using an email address.
 1. Click on the **Sign-up now** link.
 1. In the **Your loyalty ID**, type 1234, and click **Continue**. At this point, you should get a validation error message.
 1. Change to another value and click **Continue**.
@@ -625,7 +625,7 @@ To return the promo code claim back to the relying party application, add an out
 
 ### Using serverless cloud functions
 
-Serverless functions, like [HTTP triggers in Azure Functions](../azure-functions/functions-bindings-http-webhook-trigger.md), provide a way create API endpoints to use with the API connector. You can use the serverless cloud function to, [for example](api-connector-samples.md#api-connector-rest-api-samples), perform validation logic and limit sign-ups to specific email domains. The serverless cloud function can also call and invoke other web APIs, data stores, and other cloud services for complex scenarios.
+Serverless functions, like [HTTP triggers in Azure Functions](../azure-functions/functions-bindings-http-webhook-trigger.md), provide a way to create API endpoints to use with the API connector. You can use the serverless cloud function to, [for example](api-connector-samples.md#api-connector-rest-api-samples), perform validation logic and limit sign-ups to specific email domains. The serverless cloud function can also call and invoke other web APIs, data stores, and other cloud services for complex scenarios.
 
 ### Best practices
 Ensure that:
@@ -663,7 +663,7 @@ Additionally, Azure AD B2C logs metadata about the API transactions that happen 
 
 ### Using serverless cloud functions
 
-Serverless cloud functions, like [HTTP triggers in Azure Functions](../azure-functions/functions-bindings-http-webhook-trigger.md), provide a simple, highly available, high performant way to create API endpoints to use as API connectors.
+Serverless cloud functions, like [HTTP triggers in Azure Functions](../azure-functions/functions-bindings-http-webhook-trigger.md), provide a simple, highly available, high-performance way to create API endpoints to use as API connectors.
 
 ### Best practices
 Ensure that:
